@@ -84,6 +84,33 @@ False,True,False] :: [Bool]
 ```
 [[’a’],[’b’,’c’]] :: [[Char]]
 ```
+- **++** to concatenate two lists
+- **:** to add an element to the front of a list only one 
+- 1:2:3:[] this is the same as [1,2,3] (syntactic sugar)
+- [1,2,3,4] !! 0 gives the 1st element from the list (!!)
+
+#### Function operations of list
+- **head** - gives the first element from the list
+- **tail** - gives all the elements but first
+- **last** - gives the last element from the list
+- **init** - gives all the elements but the last
+- **length** - gives the length of the list
+- **null** - checks if the list if empty or not
+- **reverse** - gives the list in reverse order
+- **take** - gives the n amount of numbers from the list "take 3 [4,5,7,8,5,3]" -> [4,5,7]
+- **drop** - delete the n number of elements from the list "drop 3 [4,5,7,8,9]" -> [8,9] 
+- **maximum**, **minimum**, **sum**, **product**
+- **elem** - check whether element exists in a list "4 'elem' [3,4,6,8,7]" -> True
+
+
+- `[1..10]` generate numbers from 1 - 10 same for letters
+- [2,4..10] generate numbers that /2 from 1 - 10 
+- [20,19..1] gives 20 - 1 in a list
+- take 10 [2,4..] gives the first 10 multiples of 2
+
+- cycle - cycle takes a list and go through infinite time
+- repeat - takes an element and repeat it infinite time
+- replicate - "replicate 3 10" -> [10, 10, 10]
 
 ## Tuple types
 
